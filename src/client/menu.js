@@ -68,9 +68,10 @@ var tree = {
 
 function createMenu(tree) {
   var menu = document.createElement("ul");
+  menu.id = "menubar";
   for (var key in tree) {
     var item = document.createElement("li");
-    item.innerHTML = tree[key].content;
+    item.innerHTML = "<div>"+tree[key].content+"</div>";
     
     if (tree[key].subMenu) {
       item.classList.add('parent')
@@ -84,3 +85,4 @@ function createMenu(tree) {
 // create a menu bar based on a JSON tree
 var menu = createMenu(tree);
 document.body.appendChild(menu);
+render();
