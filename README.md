@@ -1,3 +1,3 @@
 # ds_menubar
 Dynamic menu bar.
-[./src/client/menu.html](demo)
+[demo](./src/client/menu.html)
