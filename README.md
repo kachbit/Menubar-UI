@@ -1,3 +1,3 @@
 # ds_menubar
-Dynamic menu bar.
-[demo](./src/client/menu.html)
+A dynamic menu bar that is based on a JSON object.
+[demo](./demo/main.html)
