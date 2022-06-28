@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../build/menu.css">
+  <script src="../build/menu.js"></script>
+
+  <!-- remember to include js file containing menu functions  -->
+  <script src="./funcs.js"></script>
+</head>
+
+<body>
+  <script>
+    var tree = {
+      "file": {
+        "content": "File",
+        "subMenu": {
+          "new_": {
+            "content": "New",
+            "subMenu": {
+              "project": {
+                "content": "Project",
+                "subMenu": false
+              },
+              "file": {
+                "content": "File",
+                "subMenu": false
+              }
+            }
+          },
+          "open": {
+            "content": "Open",
+            "subMenu": {
+              "project": {
+                "content": "Project",
+                "subMenu": false
+              },
+              "folder": {
+                "content": "Folder",
+                "subMenu": false
+              },
+              "file": {
+                "content": "File",
+                "subMenu": false
+              }
+            }
+          }
+        }
+      },
+      "Edit": {
+        "content": "Edit",
+        "subMenu": {
+          "undo": {
+            "content": "Undo",
+            "subMenu": false
+          },
+          "redo": {
+            "content": "Redo",
+            "subMenu": false
+          },
+          "cut": {
+            "content": "Cut {%cutThis%}",
+            "subMenu": false
+          },
+          "copy": {
+            "content": "Copy",
+            "subMenu": false
+          },
+          "paste": {
+            "content": "Paste",
+            "subMenu": false
+          },
+          "selectAll": {
+            "content": "Select All",
+            "subMenu": false
+          }
+        }
+      }
+    }
+    var menu = new Menu(tree, document.body);
+  </script>
+</body>
+
+</html>
