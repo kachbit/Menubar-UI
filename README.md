@@ -69,3 +69,8 @@ function dropdown_2() {
 ```
 ## output
 ![output](./assets/output.png)
+
+
+### todo
+* make menu functions support content with spaces and special characters
+* minify /build/menu.js
