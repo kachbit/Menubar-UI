@@ -1,5 +1,5 @@
 # ds_menubar
-A dynamic menu bar that is based on a JSON object.
+A dynamic menu bar that is based on a JSON object. This is useful for creating a menubar quickly and easily without spending hours coding HTML and css, but only spending a few minutes writing your JSON.
 [demo](https://kachbit.github.io/ds_menubar/demo/main.html)
 ## setup
 * In your HTML, include the JS and CSS files:
@@ -74,3 +74,4 @@ function dropdown_2() {
 ### todo
 * make menu functions support content with spaces and special characters
 * minify /build/menu.js
+* custumizable css
