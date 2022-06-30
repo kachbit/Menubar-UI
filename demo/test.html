@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../build/menu.css">
+  <script src="../build/menu.js"></script>
+  <!-- remember to include js file containing menu functions  -->
+</head>
+
+<body>
+  <script>
+    var json = {
+      "name of first dropdown": {
+        "content": "dropdown_1 {%optionalFunctionNameHere%}", // default function name is content value
+        subMenu:false
+      },
+      "name of second dropdown": {
+        "content": "dropdown_2",
+        submenu:false
+      }
+    }
+    var menu = new Menu(json, document.body);
+  </script>
+</body>
+</html>
