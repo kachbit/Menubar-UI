@@ -8,10 +8,11 @@ A dynamic menu bar that is based on a JSON object. This is useful for creating a
   <script src="../build/menu.js"></script>
 ```
 * Create your JSON object for the menubar using this syntax:
+{% raw %}
 ```javascript
 var json = {
   "name of first dropdown": {
-    "content": "dropdown_1 {% raw %} {%optionalFunctionNameHere%} {% endraw %}", // default function name is content value
+    "content": "dropdown_1 {%optionalFunctionNameHere%}", // default function name is content value
     subMenu:false
   },
   "name of second dropdown": {
@@ -20,6 +21,7 @@ var json = {
   }
 }
 ```
+{% endraw %}
 * Create the menu by calling the function:
 ```javascript
 // new Menu(jsonObject, container); <-- return value is the HTML element
