@@ -54,7 +54,7 @@ function dropdown_2() {
   <script>
     var json = {
       "name of first dropdown": {
-        "content": "dropdown_1 {% raw %}{%optionalFunctionNameHere%}{% endraw %}", custom function name goes in: {% raw %}{%%}{% endraw %}
+        "content": "dropdown_1 {% raw %}{%optionalFunctionNameHere%}{% endraw %}", // custom function name goes in: {% raw %}{%%}{% endraw %}
         subMenu:false
       },
       "name of second dropdown": {
