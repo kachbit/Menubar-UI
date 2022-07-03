@@ -54,7 +54,7 @@ function dropdown_2() {
   <script>
     var json = {
       "name of first dropdown": {
-        "content": "dropdown_1 {%optionalFunctionNameHere%}", // default function name is content value
+        "content": "dropdown_1 {ㅤㅤ%ㅤㅤoptionalFunctionNameHereㅤㅤ%ㅤㅤ}", custom function name goes in: {ㅤㅤ%ㅤㅤ%ㅤㅤ}
         subMenu:false
       },
       "name of second dropdown": {
