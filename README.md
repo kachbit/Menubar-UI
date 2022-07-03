@@ -11,7 +11,7 @@ A dynamic menu bar that is based on a JSON object. This is useful for creating a
 ```javascript
 var json = {
   "name of first dropdown": {
-    "content": "dropdown_1 {ㅤ%optionalFunctionNameHere%ㅤ}", // default function name is content value
+    "content": "dropdown_1 {% raw %} {%optionalFunctionNameHere%} {% endraw %}", // default function name is content value
     subMenu:false
   },
   "name of second dropdown": {
