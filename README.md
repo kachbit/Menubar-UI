@@ -1,6 +1,6 @@
 # ds_menubar
 A dynamic menu bar that is based on a JSON object. This is useful for creating a menubar quickly and easily without spending hours coding HTML and css, but only spending a few minutes writing your JSON.
-[demo](https://kachbit.github.io/Menubar-ui/demo/main.html)
+[demo](https://kachbit.github.io/Menubar-UI/demo/main.html)
 ## setup
 * In your HTML, include the JS and CSS files:
 ```html
