@@ -70,8 +70,62 @@ function dropdown_2() {
 ## output
 ![output](./assets/output.png)
 
+## YAML support coming soon:
+
+``` yaml
+file:
+  content: File
+  subMenu:
+    new_:
+      content: New
+      subMenu:
+        project:
+          content: Project
+          subMenu: false
+        file:
+          content: File
+          subMenu: false
+    open:
+      content: Open
+      subMenu:
+        project:
+          content: Project
+          subMenu: false
+        folder:
+          content: Folder
+          subMenu: false
+        file:
+          content: File
+          subMenu: false
+
+Edit:
+  content: Edit
+  subMenu:
+    undo:
+      content: Undo
+      subMenu: false
+    redo:
+      content: Redo
+      subMenu: false
+    cut:
+      content: "Cut {%cutThis%}"
+      subMenu: false
+    copy:
+      content: Copy
+      subMenu: false
+    paste:
+      content: Paste
+      subMenu: false
+    selectAll:
+      content: Select All
+      subMenu: false
+
+```
+
 
 ### todo
 * make menu functions support content with spaces and special characters
 * minify /build/menu.js
 * custumizable css
+* yaml support using ``https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js``, ``jsyaml.load(yaml)`` converts yaml to json
+* make ``subMenu`` key optional
